@@ -41,7 +41,7 @@ img {
   font-style: italic;
 }
 
-.intro {
+.intro, .conclusie {
   text-align: center;
   padding-top: 10px;
 }
