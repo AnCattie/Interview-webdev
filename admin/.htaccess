@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName 'Restricted area'
+AuthUserFile C:\wamp64\www\Interview-webdev\admin\.htpasswd
+require valid-user

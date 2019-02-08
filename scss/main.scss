@@ -1,0 +1,82 @@
+$align: center;
+$marg: 30px;
+
+
+@mixin bg {
+    background-image: linear-gradient(#78a0f7, #8bcceb, #ffffff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #343a40;
+    min-height: 100vh;
+}
+
+body {
+    @include bg
+}
+
+a {
+    color: inherit;
+}
+
+.nav-link {
+    font-weight: bold;
+    &:hover{
+        background-color: #c4c3c362;
+        color: white;
+    }
+}
+
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.Dieter {
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    padding: 5px;
+    width: 300px;
+}
+
+.introcompany {
+    text-align: $align;
+    font-style: italic;
+}
+
+.intro {
+    text-align: $align;
+    padding-top: 10px;
+}
+
+.generaldev, .workdev {
+    text-align: $align;
+    padding: 8px;
+}
+
+.generaldev > ul > li {
+    list-style: none;
+}
+
+.vragen > h4 {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    color: red;
+}
+
+.row {
+    padding-top: 30px;
+}
+
+.link {
+    height: 600px;
+    width: auto;
+}
+
+.row {
+    padding-left: $marg;
+    padding-right: $marg;
+}
